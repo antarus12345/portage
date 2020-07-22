@@ -19,7 +19,6 @@ except NameError:
 
 class ConfigError(Exception):
 	"""Raised when a config file fails to load"""
-	pass
 
 
 def merge_config(base, head):

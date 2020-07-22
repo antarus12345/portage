@@ -25,7 +25,6 @@ from itertools import chain
 import logging
 import pwd
 import stat
-import sys
 import time
 import textwrap
 import difflib

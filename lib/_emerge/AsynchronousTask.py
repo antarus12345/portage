@@ -112,7 +112,6 @@ class AsynchronousTask(SlotObject):
 		Subclasses should implement this, as a template method
 		to be called by AsynchronousTask.cancel().
 		"""
-		pass
 
 	def _was_cancelled(self):
 		"""

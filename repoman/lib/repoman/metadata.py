@@ -4,7 +4,6 @@ from __future__ import print_function
 
 import errno
 import logging
-import sys
 import time
 
 # import our initialized portage instance

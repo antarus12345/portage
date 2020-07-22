@@ -63,7 +63,6 @@ class ChangesBase:
 
 	def _scan(self):
 		'''Placeholder for subclassing'''
-		pass
 
 	@property
 	def has_deleted(self):
@@ -99,7 +98,6 @@ class ChangesBase:
 		@param no_expansion:
 		@param expansion:
 		'''
-		pass
 
 	def digest_regen(self, updates, removed, manifests, scanner,
 					broken_changelog_manifests):
@@ -111,21 +109,18 @@ class ChangesBase:
 		@param scanner: The repoman.scanner.Scanner instance
 		@param broken_changelog_manifests: broken changelog manifests
 		'''
-		pass
 
 	@staticmethod
 	def clear_attic(headers):
 		'''Old CVS leftover
 
 		@param headers: file headers'''
-		pass
 
 	def update_index(self, mymanifests, myupdates):
 		'''Update the vcs's modified index if it is needed
 
 		@param mymanifests: manifest files updated
 		@param myupdates: other files updated'''
-		pass
 
 	def add_items(self, autoadd):
 		'''Add files to the vcs's modified or new index

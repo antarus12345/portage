@@ -21,7 +21,6 @@ __all__ = (
 )
 
 import subprocess
-import sys
 
 import asyncio as _real_asyncio
 

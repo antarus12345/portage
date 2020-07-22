@@ -22,13 +22,11 @@ class Changes(ChangesBase):
 
 	def scan(self):
 		'''VCS type scan function, looks for all detectable changes'''
-		pass
 
 	def add_items(self, autoadd):
 		'''Add files to the vcs's modified or new index
 
 		@param autoadd: the files to add to the vcs modified index'''
-		pass
 
 	def commit(self, myfiles, commitmessagefile):
 		'''None commit function

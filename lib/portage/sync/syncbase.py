@@ -146,7 +146,6 @@ class SyncBase:
 		# it did not exist prior to sync, so that the config
 		# and portdb properly account for its existence.
 		'''
-		pass
 
 
 	def _get_submodule_paths(self):

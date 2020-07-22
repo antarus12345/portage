@@ -27,7 +27,6 @@ class PhaseCheck(LineCheck):
 
 	def phase_check(self, num, line):
 		""" override this function for your checks """
-		pass
 
 
 class EMakeParallelDisabled(PhaseCheck):

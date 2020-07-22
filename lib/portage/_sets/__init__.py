@@ -6,9 +6,6 @@ from __future__ import print_function
 __all__ = ["SETPREFIX", "get_boolean", "SetConfigError",
 	"SetConfig", "load_default_config"]
 
-import io
-import logging
-import sys
 import portage
 from portage import os
 from portage import load_mod

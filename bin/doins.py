@@ -20,7 +20,6 @@ import grp
 import logging
 import os
 import pwd
-import re
 import shlex
 import shutil
 import stat

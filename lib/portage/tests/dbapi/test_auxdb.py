@@ -24,7 +24,7 @@ class AuxdbTestCase(TestCase):
 
 	def test_sqite(self):
 		try:
-			import sqlite3
+			pass
 		except ImportError:
 			self.skipTest('sqlite3 import failed')
 		self._test_mod('portage.cache.sqlite.database')

@@ -137,7 +137,6 @@ class PollScheduler:
 		should return immediately (since there's no need to
 		schedule anything after _terminate_tasks() has been called).
 		"""
-		pass
 
 	def _schedule(self):
 		"""

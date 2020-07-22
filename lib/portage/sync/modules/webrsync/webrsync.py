@@ -133,5 +133,4 @@ class PyWebRsync(SyncBase):
 
 	def sync(self, **kwargs):
 		'''Sync the repository'''
-		pass
 

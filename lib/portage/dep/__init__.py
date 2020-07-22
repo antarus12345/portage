@@ -13,7 +13,7 @@ __all__ = [
 	'_repo_separator', '_slot_separator',
 ]
 
-import re, sys
+import re
 import warnings
 from functools import lru_cache
 

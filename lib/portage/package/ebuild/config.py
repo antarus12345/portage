@@ -2226,7 +2226,6 @@ class config:
 	def setinst(self, mycpv, mydbapi):
 		"""This used to update the preferences for old-style virtuals.
 		It is no-op now."""
-		pass
 
 	def reload(self):
 		"""Reload things like /etc/profile.env that can change during runtime."""

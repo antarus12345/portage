@@ -110,7 +110,6 @@ try:
 		'time',
 	)
 
-	from collections import OrderedDict
 
 	import portage.const
 	from portage.const import VDB_PATH, PRIVATE_PATH, CACHE_PATH, DEPCACHE_PATH, \
